@@ -4,6 +4,7 @@ function roundToThreeDecimalPlaces(number: number): number {
   return Number(number.toFixed(3));
 }
 
+/*Group the wine data according to the classes*/
 function getGroupedData(data: WineData[]): Record<number, WineData[]> {
   const groupedData: Record<number, WineData[]> = {};
 
@@ -96,6 +97,7 @@ export function formatWineData(wineData: WineData[], wineProperty: string) {
 
 export const formatGamaData = (wineData: WineData[]) => {
   const gammaData = wineData.map((record) => {
+    //converting the data to number for the calculations
     const numberAsh =
       typeof record.Ash === "string" ? parseFloat(record.Ash) : record.Ash;
     const numberHue =
