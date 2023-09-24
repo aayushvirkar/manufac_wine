@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+table{
+  margin: 1rem auto;
+}
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  padding: 1rem;
+}
+
+td:first-child{
+  font-weight: bold;
+  text-align: left;
+}
+td{
+  max-width: 400px;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.table-title{
+  font-size: 20px;
+  font-weight: 700;
+}
