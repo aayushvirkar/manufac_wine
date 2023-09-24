@@ -8,18 +8,18 @@ A web application to see tabular calculations performed upon the wine dataset.
 
 A step-by-step guide to installing and setting up the project.
 
-# Clone the repository
+## Clone the repository
 
 git clone https://github.com/aayushvirkar/manufac_wine.git
 
-# Navigate to the project directory
+## Navigate to the project directory
 
 cd wine_app
 
-# Install dependencies
+## Install dependencies
 
 yarn install
 
-# Start the development server
+## Start the development server
 
 yarn start
